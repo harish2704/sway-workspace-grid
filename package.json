@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A simple utility to organize sway workspaces as M x N grid with multi-monitor support Edit",
   "main": "index.js",
-  "bin":{
+  "bin": {
     "sway-wp-switch": "./index.js"
   },
   "scripts": {

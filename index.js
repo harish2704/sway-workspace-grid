@@ -100,6 +100,16 @@ WpManager.prototype.getCmd = function( swayWorkspace, dir, isMove ){
   return out.join('; ');
 };
 
+function helpStr(){/*
+sway-wp-switch 
+Usage:
+    sway-wp-switch [ -m ] <up|down|right|left>
+
+Options:
+    -m    move current window to new workspace while switching.
+          If currently focused windows in output-2, it will be placed in output-two itself without losing focus
+*/}
+
 
 function main(){
   var dir = process.argv[2],
@@ -116,13 +126,7 @@ function main(){
     dir = process.argv[3];
   }
   if( [ 'up', 'down', 'right', 'left' ].indexOf( dir ) === -1 ){
-    console.log([
-      'Usage:',
-      '\tsway-wp-switch [ -m ] <up|down|right|left>',
-      '\n',
-      'Options:',
-      '\t-m\t move current window to new workspace while switching'
-    ].join('\n'));
+    console.log( helpStr.toString().slice(22,-3) +'' );
     return;
   }
 
