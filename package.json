@@ -1,0 +1,28 @@
+{
+  "name": "sway-workspace-grid",
+  "version": "0.0.1",
+  "description": "A simple utility to organize sway workspaces as M x N grid with multi-monitor support Edit",
+  "main": "index.js",
+  "bin":{
+    "sway-wp-switch": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harish2704/sway-workspace-grid.git"
+  },
+  "keywords": [
+    "sway",
+    "i3",
+    "workspace",
+    "grid"
+  ],
+  "author": "Harish.K <harish2704@gmail.com> (https://github.com/harish2704)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harish2704/sway-workspace-grid/issues"
+  },
+  "homepage": "https://github.com/harish2704/sway-workspace-grid#readme"
+}
