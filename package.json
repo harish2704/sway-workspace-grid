@@ -1,6 +1,6 @@
 {
   "name": "sway-workspace-grid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple utility to organize sway workspaces as M x N grid with multi-monitor support Edit",
   "main": "index.js",
   "bin": {
